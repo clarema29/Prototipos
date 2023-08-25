@@ -1,0 +1,73 @@
+/* css login */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f7f4ed;
+    background-image: url("img/Portada-articulos.png");
+    background-size: cover;
+}
+
+.login {
+    background-color: rgb(17, 39, 39);
+    color: aliceblue;
+    margin: 80px 30px ;
+    padding: 30px 30px;
+}
+h3 {
+    margin-bottom: 30px;
+}
+
+h1 {
+    padding-top: 30px;
+    color: rgb(17, 39, 39);
+    font-weight: bold;
+}
+.foot {
+    background: rgb(17, 39, 39);
+    text-align: center;
+    font-size: larger;
+    padding: 25px;
+}
+
+a {
+    color: aliceblue;
+}
+
+/* css register */
+
+header {
+    background: rgb(17, 39, 39);
+}
+
+.titulo {
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.bg {
+    background: rgb(17, 39, 39);
+    color: aliceblue;
+    padding: 20px;
+    height: 450px;
+}
+
+.btn-color {
+    background: rgb(68, 192, 151);
+    color: white;
+}
+
+.containt {
+    margin: 20px;
+}
+
+.foot2 {
+    background: rgb(17, 39, 39);
+    text-align: center;
+    font-size: larger;
+    padding: 16px;
+}

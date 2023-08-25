@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!-- Vincualción archivo booststrap css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Vincualción archivo style.css -->
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Formulario de Registro</h1>
+    </header>
+    <div class="containt">
+      <div class="row">
+          <div class="col-md-6 offset-md-3">
+              <div class="signup-form">
+                  <form class="bg">
+                      <h4 class="mb-5 text-secondary text-center">Datos</h4>
+                      <div class="row">
+                          <div class="mb-3 col-md-6">
+                              <label>Nombre<span class="text-danger"></span></label>
+                              <input type="text" name="fname" class="form-control">
+                          </div>
+  
+                          <div class="mb-3 col-md-6">
+                              <label>Apellido<span class="text-danger"></span></label>
+                              <input type="text" name="Lname" class="form-control">
+                          </div>
+
+                          <div class="mb-3 col-md-6">
+                            <label>Documento<span class="text-danger"></span></label>
+                            <input type="text" name="Lname" class="form-control">
+                          </div>
+
+                          <div class="mb-3 col-md-6">
+                            <label>Fecha de nacimiento<span class="text-danger"></span></label>
+                            <input type="text" name="Lname" class="form-control">
+                          </div>
+                          <div class="form-inline">
+                            <div class="mb-3 col-md-12" >
+                            <label>Ciudad de nacimiento<span class="text-danger"></span></label>
+                            <select class="form-control" id="validationCustom04" required >
+                              <option selected disabled value="">Seleccione...</option>
+                              <option>Bogotá</option>
+                              <option>Cali</option>
+                              <option>Cartagena</option>
+                              <option>Medellín</option>
+                              <option>Pereira</option></select>
+
+                            <label>Genero<span class="text-danger"></span></label>
+                            <select class="form-control" id="validationCustom04" required >
+                                <option selected disabled value="">Seleccione...</option>
+                                <option>Masculino</option>
+                                <option>Femenino</option>
+                                <option>Prefiero no contestar</option></select>
+                          </div>
+                          
+                        </div>
+                      </div>
+                      <div class="mb-3 col-md-7">
+                        <button class=" btn btn-color float-end">Registrar</button>
+                     </div>
+                </div>
+                      </div>
+                  </form>
+                 
+              </div>
+          </div>
+      </div>
+  </div>
+    <footer class="foot2">
+        <a href="../login.html">Login</a>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
